@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    <link rel="stylesheet" href="css/utilityCSS.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="Home.html">Home</a>
+      <a href="index.html">Log in</a>
+      <a href="products.html">Products</a>
+    </nav>
+    <div id="app">
+      <h1>Login</h1>
+      <form id="feedbackForm">
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          maxlength="10"
+          placeholder="Enter Your Username"
+          required
+        />
+        <label for="comments">Password:</label>
+        <textarea
+          name="comments"
+          id="comments"
+          placeholder="Enter Your Password"
+          required
+        ></textarea>
+        <button type="submit">Log in</button>
+      </form>
+    </div>
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script type="module" src="lib/utility.js"></script>
+    <script type="module" src="app/app.js"></script>
+  </body>
+</html>
